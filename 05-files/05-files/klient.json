@@ -1,0 +1,10 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"hadamcik"},
+{"type":"table","name":"klient","database":"hadamcik","data":
+[
+{"prijmeni":"Bolekolen","jmeno":"Baltazar","email":"bolimekoleno@email.cz","narozen":"1887-06-09","poznamka":"Dobrý den,\r\njá, Baltazar Bolekloub, bych měl zájem o Váš krásný domov. Zaplatím dobře.\r\nPapa","cislo":"605684325"},
+{"prijmeni":"Kloubohlav","jmeno":"Ivan","email":"kloubik@seznam.cz","narozen":"1973-07-23","poznamka":"Dobrý den,\r\nopravdu mám zájem. Vážně nelžu, nemám kde bydlet.","cislo":"731654821"}
+]
+}
+]

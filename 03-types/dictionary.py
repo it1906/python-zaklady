@@ -4,9 +4,12 @@ Na rozdíl od seznamů, ve kterých jsou všechny prvky uspořádané do jedné 
 klíč (angl. key) a hodnotu (angl. value).
 Každému klíči je přiřazena jedna hodnota.
 '''
+import json
 
-# Collection which is unordered, changeable and indexed.
-# In Python dictionaries are written with curly brackets, and they have keys and values.
+import yaml
+
+# Kolekce je neseřazena, dá se měnit a ma indexy.
+# V pythonu se slovníky píší se zobáčky a mají klíče a hodnoty.
 car = {
   'brand': 'Ford',
   'model': 'Mustang',
@@ -94,3 +97,17 @@ child3          Linus               2011
 ---------------------------------------------
 Počet záznamů: 3
 '''
+rodina= {
+  'dite1': {
+  'jmeno': 'Cecil',
+  'vek': 18
+}, 'rodice': {
+  'matka': ["Jana", 39],
+  'otec': ["Petr", 47]
+}, 'prarodice': {
+  'jmena': ('Bořek', 'Světlana'),
+  'vek': ('78', '76')
+}}
+del rodina['dite1']
+rodina['dite'] = {'jmeno':'Květa','vek':'3'}
+print(rodina)

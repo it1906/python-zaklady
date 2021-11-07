@@ -40,7 +40,7 @@ def greet(name):
 # Vypíše docstring spojený s funkcí greet
 print(greet.__doc__)
 # Vyvolá funkci greet s parametrem 'Hilda'
-greet('Hilda')
+greet('deez')
 
 """
 Cvičení 2:
@@ -49,4 +49,21 @@ Vytvořte libovolně pojmenovanou vlastní funkci s minimálně jedním parametr
 aspoň jednu podmínku if a funkci print(). Dodržte správné odsazování kódu a opatřete funkci stručnou dokumentací.
 Do konzole vypište nejprve docstring vaší funkce a potom zavolejte funkci samotnou.   
 """
+def cislo(number):
+    '''
+    tato funkce vypise jestli je vase cislo 5
+    '''
+    for i in range(1, 10):
+        print(i)
+        if i % 5 == 0:
+            print('cislo je ' + number)
+        else:
+            print('cislo neni ' + number)
+
+print(cislo.__doc__)
+cislo('5')
+
+
+
+
 
